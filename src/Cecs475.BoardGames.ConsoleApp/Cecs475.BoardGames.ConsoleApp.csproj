@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cecs475.BoardGames.Chess.Model\Cecs475.BoardGames.Chess.Model.csproj" />
+    <ProjectReference Include="..\Cecs475.BoardGames.Chess.View\Cecs475.BoardGames.Chess.View.csproj" />
+    <ProjectReference Include="..\Cecs475.BoardGames.Model\Cecs475.BoardGames.Model.csproj" />
+    <ProjectReference Include="..\Cecs475.BoardGames.Othello.Model\Cecs475.BoardGames.Othello.Model.csproj" />
+    <ProjectReference Include="..\Cecs475.BoardGames.Othello.View\Cecs475.BoardGames.Othello.View.csproj" />
+    <ProjectReference Include="..\Cecs475.BoardGames.View\Cecs475.BoardGames.View.csproj" />
+  </ItemGroup>
+
+</Project>

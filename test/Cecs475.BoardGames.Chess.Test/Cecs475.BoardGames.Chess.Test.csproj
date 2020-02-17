@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Cecs475.BoardGames.Chess.Model\Cecs475.BoardGames.Chess.Model.csproj" />
+    <ProjectReference Include="..\..\src\Cecs475.BoardGames.Chess.View\Cecs475.BoardGames.Chess.View.csproj" />
+    <ProjectReference Include="..\..\src\Cecs475.BoardGames.Model\Cecs475.BoardGames.Model.csproj" />
+    <ProjectReference Include="..\..\src\Cecs475.BoardGames.View\Cecs475.BoardGames.View.csproj" />
+    <ProjectReference Include="..\Cecs475.BoardGames.Test\Cecs475.BoardGames.Test.csproj" />
+  </ItemGroup>
+
+</Project>
